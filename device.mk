@@ -404,6 +404,10 @@ PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.0-impl:64 \
     android.hardware.vibrator@1.0-service
 
+# vndservicemanager
+PRODUCT_PACKAGES += \
+    vndservicemanager
+
 # Wifi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
