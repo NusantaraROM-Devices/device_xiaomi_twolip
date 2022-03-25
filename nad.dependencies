@@ -1,0 +1,39 @@
+[
+  {
+    "remote"		: "github",
+    "repository"	: "Avarice12/android_device_xiaomi_sdm660-common",
+    "target_path"	: "device/xiaomi/sdm660-common",
+    "branch"            : "10"
+
+  },
+  {
+    "remote"            : "gitlab",
+    "repository"        : "the-muppets/proprietary_vendor_xiaomi",
+    "target_path"       : "vendor/xiaomi",
+    "branch"            : "lineage-17.1"
+  },
+  {
+    "remote"		: "github",
+    "repository"	: "LineageOS/android_kernel_xiaomi_sdm660",
+    "target_path"	: "kernel/xiaomi/sdm660",
+    "branch"		: "lineage-17.1"
+  },
+  {
+    "remote"		: "github",
+    "repository"	: "LineageOS/android_hardware_qcom_display",
+    "target_path"	: "hardware/qcom-caf/msm8998/display",
+    "branch"		: "lineage-17.1-caf-msm8998"
+  },
+  {
+    "remote"            : "github",
+    "repository"        : "LineageOS/android_hardware_qcom_media",
+    "target_path"       : "hardware/qcom-caf/msm8998/media",
+    "branch"            : "lineage-17.1-caf-msm8998"
+  },
+  {
+    "remote"            : "github",
+    "repository"        : "LineageOS/android_hardware_qcom_audio",
+    "target_path"       : "hardware/qcom-caf/msm8998/audio",
+    "branch"            : "lineage-17.1-caf-msm8998"
+  }
+]
